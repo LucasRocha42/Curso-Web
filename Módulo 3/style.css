@@ -9,6 +9,27 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.list  {
+
+#image1{
     list-style-image: url(imagens/Insta.png) ;
+
+}
+#image2{
+    list-style-image: url(imagens/Twitter.png) ;
+
+}
+#image3{
+    list-style-image: url(imagens/Youtube.png) ;
+
+}
+a{
+    color:black;
+    text-decoration: none;
+    border:solid;
+    border-radius: 20%;
+    padding: 5px;
+}
+a:hover{
+    background:pink ;
+    color:red
 }
