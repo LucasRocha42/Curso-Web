@@ -1,21 +1,14 @@
-body{
-    background-image: url(https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2010/12/astronomia.jpg);
-    /* background-repeat: no-repeat; */
-    background-size: 100%;
-    background-attachment: fixed ; 
-    background-position: center;
+/* body{
+    background-image: url(imagens/backgorund.png);
     background-repeat: no-repeat;
-    justify-content: center;
-    
+    background-size: cover;
 }
-
-h1{
-   background-color: blue;
-   display: flex;
-   position: relative;
-   right: 50;
-   text-align: center;
-   justify-content: center;
-   padding: 20px;
-   margin: 20px;
+ */
+.container{
+    background-image: url(imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.list  {
+    list-style-image: url(imagens/Insta.png) ;
 }
