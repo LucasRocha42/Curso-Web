@@ -2,31 +2,22 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.container {
-    width: 100px;
-    height: 100px;
-}
-.esquerda1{
-    background-color: red;
-}
-.esquerda2{
-  background-color: blue;
-  position: relative;
-  left: 668px;
-  bottom:40px
-}
-.direita1{
-    background-color: yellow;
+.header {
     position: relative;
-    top:260px;
-    left:668px;
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    background-color: gray;
 }
-.direita2{
-    background-color: green;
-    position:relative ;
-    top:222px
-
+.content{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    
 }
-
-
