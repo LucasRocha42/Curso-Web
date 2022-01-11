@@ -19,5 +19,9 @@ body{
     transform:translate(-50%, -50%);
     color: white;
     text-align: center;
+
+}
+
+@media screen and (mas-width: 400px) {
     
 }
