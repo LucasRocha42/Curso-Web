@@ -1,0 +1,14 @@
+
+
+.overflow{
+    
+}
+img {
+    width: 60px;
+    display: block;
+    margin: auto;
+    border: red solid ;
+    background-color: blue;
+    float:clear; 
+}
+
