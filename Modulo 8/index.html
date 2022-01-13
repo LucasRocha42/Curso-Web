@@ -8,43 +8,18 @@
 </head>
 <body>
     <script>
-   var nota1 = 1.0;
-   var nota2 = 1.0;
-
-    var media = (nota1 + nota2) / 2;
-    var conceito = "";
-
-   if (media >= 8){
-       
-       conceito = "Ótimo"
-   }
-   else if (media >= 6.5){
-       
-        conceito = "Bom"
-   }
-   else  {
-       
-       conceito = "Regular"
-   }
-   conceito = "mais ou menos"
-
-   console.log("Sua média é: " + media + " " + conceito )
-
-   switch(conceito){
-        case "Ótimo":
-            console.log("Ótimo")
-        break;
-        case "Bom":
-            console.log("Bom")
-        break;
-        case "Regular":
-            console.log("Regular")
-        break;
-
-        default:
-            console.log("Houve um erro")
-
-   }
+    var vet = [
+        "lucas", 7 , "carlos"
+    ]
+        for (var i = 0; vet.length; i++){
+            console.log(vet[i])
+        }
+    for (var i in vet){
+        console.log(vet[i])
+    }// Imprime os index
+    for (var i of vet){
+        console.log(vet[i])
+    }//Imprime os elementos 
 
 
     </script>
