@@ -9,20 +9,19 @@
 <body>
     <h1>Hey dad </h1>
     <script>
-    var vet = [
-        "lucas", 7 , "carlos"
-    ]
-        for (var i = 0; vet.length; i++){
-            console.log(vet[i])
+        var nomes = [ "Lucas", "Maria", "Carlos "]
+        var notasA = [
+            7.0, 2.0, 3.8
+        ]
+        var notasB = [
+            8.0, 5.0, 5.2
+        ]
+
+        function media (notasA,notasB){
+            return (notasA + notasB) / 2
         }
-    for (var i in vet){
-        console.log(vet[i])
-    }// Imprime os index
-    for (var i of vet){
-        console.log(vet[i])
-    }//Imprime os elementos 
-
-
+        media(notasA,notasB)
+        console.log(media)
     </script>
 </body>
 </html>
