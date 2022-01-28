@@ -9,19 +9,15 @@
 <body>
     <h1>Hey dad </h1>
     <script>
-        var nomes = [ "Lucas", "Maria", "Carlos "]
-        var notasA = [
-            7.0, 2.0, 3.8
-        ]
-        var notasB = [
-            8.0, 5.0, 5.2
-        ]
+        var aluno = {
+            nome: [ "lucas","carlos"  ],
+            idade: [ 18,98 ],
 
-        function media (notasA,notasB){
-            return (notasA + notasB) / 2
+            media: function(n1,n2){
+                return (n1 + n2 )/2
+            }
         }
-        media(notasA,notasB)
-        console.log(media)
+        console.log(aluno.media(aluno.idade[0],aluno.idade[1]))
     </script>
 </body>
 </html>
