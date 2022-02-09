@@ -6,19 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script>
-        function h1click (){
-           let h1 = document.getElementByTagName("h1")[0]
-           h1.innerText = i.value;
+   <script>
+       function Onver(elemento){
+           elemento.style.backgroundColor = "blue"
+       }
+       function Onout(elemento) {
+           elemento.style.backgroundColor = "red"
+       }
+     
+   </script>
+    <style>
+        div{
+            background-color: red;
+            margin: 10rem;
+            display: inline-block;
         }
-    </script>    
+    </style>
 
 </head>
-<body>
+<body onload ="console.log('Carregada')" >
     <h1>Olá</h1>
     <input type="text" onchange="h1click(this)" >
+    
+   <div onmouseover="Onver(this)"onmouseout = "Onout(this)" >Click</div>
    
-
    
 </body>
 </html>
