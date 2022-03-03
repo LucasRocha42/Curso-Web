@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.page-landing{
+    border: red;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+form{
+    background-color: red;
+}
