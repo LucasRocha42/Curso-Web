@@ -1,14 +1,23 @@
 *{
     margin: 0;
     border: 0;
+    padding: 0;
 }
-.page-landing{
+body{
+    background-color: black;
+}
+.title{
     border: red;
-    background-color: blue;
+    background-color: #48C5CE;
     color: white;
     text-align: center;
+    padding: 10px;
+}
+.container{
+    max-width: 1000px;
 }
 img{
+    display: inline;
     width: 100%;
     height: auto;
 }
