@@ -6,109 +6,44 @@ body{
     background-color: black;
 }
 .container{
-    max-width: 1000px;
-    margin: auto;
-}
-
-.title{
-    background-color: #48C5CE;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-.mb{
-    padding: 10px;
-}
-
-.formContainer{
-    max-width: 230px ;
-    background-color: #FFFFFFBB;
-    padding: 10px;
-    float: right;
-    margin: 15px;
-}
-.form input,select{
-    width: 100%; /* largura */
-    box-sizing: border-box;
-    padding: 10px;
-    border: none;
-    margin-bottom: 7px;
-}
-
-input[type="submit"]{
-    color: white;
-    background-color: #48C5CE;
-    font-weight: bold;
-}
-.content{
-    padding: 20px;
-    background-image: url('../Módulo 7/image/paleste.jpg');
-    background-size:cover ;
-    overflow: hidden;
-}
-
-
-footer{
-    background-color: #202121;    
-    padding: 20px;
-    text-align: center;
-}
-
-.picture{
-    width: 300px ;
-}
-.description{
-    text-align: left;
-    color: white;
-    display:inline-block ;
-    max-width: 40%;
-    margin-left: 40px;
-    
-}
-.description p, .description h3 {
-    margin-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .content{
-    padding: 20px;
-    background-image: url('../Módulo 7/image/paleste.jpg');
+    background-image: url('/Módulo 7/image/paleste.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
-}
-.container{
-    max-width: 1000px;
-}
 
-h2{
-    font-size:16px ;
 }
-.mb{
-    margin-bottom: 15px;
-}
-
-
-input[type="submit"]
-    color: white;
+.header{
     background-color: #48C5CE;
-    font-weight: bold;
-} */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.containerForm{
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    width: 230px;
+    float: right;
+    background-color: #FFFFFFBB;
+    border-radius: 5px;
+    padding: 10px;
+}
+.containerForm input,select{
+    margin: 10px;
+    padding: 5px;
+    border: none;
+}
+.containerForm h2, p {
+    margin: 10px;
+    color: black;
+}
+input[type=submit]{
+    color: blue;
+}
+.palestrante img {
+    width: 150px;
+    text-align: center;
+}
+.rodape{
+    color: white;
+}
