@@ -53,11 +53,6 @@ input[type="submit"]{
     font-weight: bold;
 
 }
-footer{
-    background-color: #202121;
-    padding: 40px;
-    text-align:center;
-}
 .picture{
     width: 220px;
     height: 170px;
@@ -76,4 +71,9 @@ description p, .description h3{
 }
 .description h3{
     font-size: 24px;
+}
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align:center;
 }
