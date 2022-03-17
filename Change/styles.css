@@ -4,58 +4,63 @@
 }
 body{
     background-color: black;
-    max-width: 1000px;
-    margin: auto;
-}
-.header{
-    background-color: blue;
-    color: white;
-    text-align: center;
-    padding: 12px;
+    background-image: cover;
+
 }
 .content{
-    background-image: url("../Módulo 7/image/paleste.jpg");
+    background-image: url('../Módulo 7/image/paleste.jpg');
+    background-image: no-repeat;
     overflow: hidden;
 }
-.formContent{
-    max-width: 200px ;
-    color: black;
-    padding: 20px;
-    background-color: #FFFFFFBB;
-    margin: 20px;
-    float: right;
-    border-radius: 5px;
-}
-.formContent h3, .formContent p{
-    margin: 12px;
-}
-.formContent input,select{
-    width: 90%;
-    display: block;
-    margin: 9px;
-    border: none;
-    padding: 7px;
-}
-.formContent input[type="submit"]{
-    color: white;
-    background-color: blue;
-    font-weight: bold;
-}
-footer{
+.header h2 {
+    background-color: #48C5CE;
     text-align: center;
-    background-color: silver;
+    padding: 5px;
+}
+.form{
+    max-width:230px;
+    float: right;
+    background-color: #FFFFFFBB;
+    margin: 15px;
+    padding: 20px;
+}
+.form h2,p {
+    margin: 8px;
+}
+.formContainer input, select {
+    margin:10px ;
     padding: 10px;
+    border: none;
+    width: 90%;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+select{
+    width: 100%;
 }
 .picture{
-    width: 300px;
-    margin: 20px;
+    margin:15px;
+    width: 240px;
+    height: 200px;
 }
 .description{
-    color: white;
-    text-align: left;
     display: inline-block;
+    text-align: left;
+    color: white;
     max-width: 20%;
+    margin-left: 10px;
 }
-.description p, .description h3{
-    margin-bottom: 30px;
+footer{
+    background-color: gray;    
+    text-align: center;
+    padding: 20px;
 }
+.description{
+    max-width: 25%;
+    margin-bottom: 100px;
+}
+
